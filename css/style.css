@@ -81,7 +81,11 @@ a:focus, a:hover {
 .btn-transparent:hover {
   color: #fff;
 }
-
+.readmore{
+  border-radius: 15px;
+  margin-top: 15px;
+   
+}
 .mt-10 {
   margin-top: 10px;
 }
@@ -677,6 +681,9 @@ a:focus, a:hover {
   left: 0;
   top: 0;
 }
+.card{
+  border-radius: 30px;
+}
 
 .slider-item .container {
   position: absolute;
@@ -853,6 +860,9 @@ a:focus, a:hover {
 
 .about-2 .checklist {
   padding-left: 30px;
+}
+.list li i{
+  color: black;
 }
 
 .about-2 .checklist li {
@@ -1263,9 +1273,9 @@ a:focus, a:hover {
 .services .service-block .service-icon {
   margin-bottom: 30px;
 }
-
+ 
 .services .service-block i {
-  font-size: 75px;
+  font-size: 15px;
   color: #2a225d;
 }
 
