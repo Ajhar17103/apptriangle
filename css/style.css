@@ -198,7 +198,7 @@ a:focus, a:hover {
   -webkit-animation-delay: 800ms;
   animation-delay: 800ms;
 }
-
+ 
 .preloader span:nth-child(6) {
   left: 55px;
   -webkit-animation-delay: 1000ms;
@@ -443,6 +443,9 @@ a:focus, a:hover {
 ==================================================================*/
 .navigation {
   transition: .3s all;
+  background: white;
+  height: 100px;
+  
 }
 
 .navigation .logo-default {
@@ -450,7 +453,8 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-light .navbar-nav .nav-item .nav-link {
-  color: #fff;
+
+  color: rgb(0, 0, 0);
   font-size: 14px;
   line-height: 26px;
   padding: 20px 15px;
@@ -460,12 +464,12 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-light .navbar-nav .nav-item .nav-link:hover, .navigation .navbar-light .navbar-nav .nav-item .nav-link:active, .navigation .navbar-light .navbar-nav .nav-item .nav-link:focus {
-  background: none;
+  
   color: #2a225d;
 }
 
 .navigation .navbar-light .navbar-nav .nav-item.active .nav-link {
-  color: #2a225d;
+  color: #09042c;
 }
 
 @media (max-width: 991px) {
@@ -684,7 +688,10 @@ a:focus, a:hover {
 .card{
   border-radius: 30px;
 }
-
+.icon-color li i{
+color: white;
+margin-right: 5px;
+}
 .slider-item .container {
   position: absolute;
   left: 0;
@@ -1837,7 +1844,10 @@ a:focus, a:hover {
   color: #fff;
   padding-left: 20px;
 }
-
+.widget-categories-list li a:active{
+  background: #2a225d;
+  color: #fff;
+}
 .widget-post-list {
   padding-left: 0;
 }
@@ -2057,7 +2067,7 @@ a:focus, a:hover {
   Footer section
 ==================================================================*/
 .top-footer {
-  background-color: #222222;
+  background-color: #0b061a; 
   border-top: 1px solid #404040;
   padding: 100px 0 80px;
 }
@@ -2070,6 +2080,19 @@ a:focus, a:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 20px;
+}
+.top-footer h4 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.top-footer span{
+  color: white;
 }
 
 .top-footer p {
@@ -2137,6 +2160,10 @@ a:focus, a:hover {
 
 .page-404 h1 {
   font-size: 200px;
+}
+
+.hoverImg:hover{
+  width: 180px;
 }
 
 /*============================================================
