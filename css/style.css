@@ -500,7 +500,9 @@ a:focus, a:hover {
           transform-origin: top;
   background: #000;
 }
-
+.serviceCard{
+  
+}
 @media (max-width: 991px) {
   .navigation .dropdown-menu {
     display: none;
@@ -717,6 +719,8 @@ margin-right: 5px;
 .slider-item p {
   color: #fff;
   margin-bottom: 20px;
+  font-size: 18px;
+   
 }
 
 .hero-slider {
@@ -1340,10 +1344,21 @@ margin-right: 5px;
   Services section 2
 ==================================================================*/
 .service-2 .service-item {
-  border: 1px solid #eee;
+  
   margin-bottom: 30px;
   padding: 10px 20px;
   transition: all 0.3s ease 0s;
+
+}
+.card1{
+  border: 1px solid rgb(14, 111, 202);
+  border-radius: 30px;
+  
+}
+.card2{
+  border: 1px solid rgb(236, 156, 63);
+  border-radius: 30px;
+  
 }
 
 .service-2 .service-item:hover {
