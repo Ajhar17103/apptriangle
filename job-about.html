@@ -5,36 +5,37 @@
 <!--[if gt IE 8]><!--> 
 <html> <!--<![endif]-->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Apptriangle-Technology On Demand">
-    
-     
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Apptriangle-Technology On Demand">
   
-    <title>Apptriangle | Technology On Demand</title>
+   
+
+  <title>Apptriangle | Technology On Demand</title>
+
+<!-- Mobile Specific Meta
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <!-- Mobile Specific Meta
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
-    
-    <!-- CSS
-    ================================================== -->
-    <!-- Themefisher Icon font -->
-    <link rel="stylesheet" href="plugins/apptriangle-font/style.css">
-    <!-- bootstrap.min css -->
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Lightbox.min css -->
-    <link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
-    <!-- animation css -->
-    <link rel="stylesheet" href="plugins/animate/animate.css">
-    <!-- Slick Carousel -->
-    <link rel="stylesheet" href="plugins/slick/slick.css">
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">  
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
   
-  </head>
+  <!-- CSS
+  ================================================== -->
+  <!-- Themefisher Icon font -->
+  <link rel="stylesheet" href="plugins/apptriangle-font/style.css">
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Lightbox.min css -->
+  <link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">  
+
+</head>
+
 <body id="body">
 
  <!--
@@ -119,10 +120,10 @@ End Fixed Navigation
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2>Manage Engine</h2>
+				<h2>Job Description</h2>
 				<ol class="breadcrumb header-bradcrumb">
 				  <li><a href="index.html">Home</a></li>
-				  <li class="active">/Manage Engine</li>
+				  <li class="active">/ Job Description</li>
 				</ol>
 			</div>
 		</div>
@@ -133,15 +134,20 @@ End Fixed Navigation
 <section class="blog-details section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-10">
         <article class="post">
           <div class="post-image">
-            <img class="img-fluid w-100" src="images/blog/manage.png" alt="post-image">
+            <img class="img-fluid w-100" src="images/job.png" alt="post-image">
           </div>
           <!-- Post Content -->
-          <div class="post-content">
-            <h3>Manage Engine  </h3>
-           
+          <div class="post-content mt-3">
+            <h3>Job Title</h3>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#"> Admin</a>&nbsp; 
+              </li>
+               
+            </ul>
             <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               Sed ut perspiciatis unde omnis natus error sit voluptatem accusantium dolore mque laudantium totam rem aperiam
               eaque ipsa quae ab illo inventore veritatis et quasi archite beatae vitae dicta sunt explicabo. nemo enim ipsam
@@ -156,82 +162,46 @@ End Fixed Navigation
               unde omnis natus error sit voluptatem accusantium doloremque laudantium totam rem. aperiam eaque ipsa quae
               ab illo inventore veritatis.</p>
             <!-- post share -->
-            <ul class="post-content-share list-inline">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="tf-ion-social-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="tf-ion-social-linkedin"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="tf-ion-social-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="tf-ion-social-skype"></i>
-                </a>
-              </li>
-            </ul>
-           
-           
+          
             
+            <h3>Apply Here</h3>
+            <!-- Comment Form -->
+            <form action="#" class="comment-form">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <input type="text" name="first-name" class="form-control" id="first-name" placeholder="First Name" required>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <input type="text" name="last-name" class="form-control" id="first-name" placeholder="Last Name" required>
+                  </div>
+                <div class="col-lg-6 col-md-6">
+                  <input type="email" name="mail" class="form-control" id="mail" placeholder="Email" required>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone" required>
+                  </div>
+                <div class="col-lg-12 col-md-12">
+                  <textarea class="form-control" name="msg" id="msg" rows="6" placeholder="Cover Letter (Be Concise)" required></textarea>
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <span >Upload Your CV/Resume  </span>
+                    
+                    <input type="file" name="file" class="form-control mt-2" id="file"   required>
+                  </div>
+              </div>
+              <button type="submit" value="send" class="btn btn-primary">Submit</button>
+            </form>
           </div>
         </article>
       </div>
-      <div class="col-lg-4">
-        <!-- sidebar -->
-        <aside class="sidebar">
-          <div class="widget-search widget">
-            <form action="#">
-              <!-- Search bar -->
-              <input class="form-control" type="text" placeholder="Search..." name="search">
-              <button type="submit" class="widget-search-btn">
-                <i class="tf-ion-ios-search"></i>
-              </button>
-            </form>
-          </div>
-          <div class="widget-categories widget">
-            <h2>Categories</h2>
-            <!-- widget categories list -->
-            <ul class="widget-categories-list">
-              <li  class="active">
-                <a  href="microsoft.html">Microsoft   </a>
-              </li>
-              
-              <li>
-                <a href="trend_micro.html">Trend Micro  </a>
-              </li>
-              
-              <li>
-                <a href="kaspersky.html">Kaspersky Lab  </a>
-              </li>
-             
-              <li>
-                <a href="manage_engines.html"> Manage Engines   </a>
-              </li>
-             
-              <li>
-                <a href="support_service.html">Support & Service </a>
-              </li>
-           
-             
-            </ul>
-          </div>
-          
-        </aside>
-      </div>
+     
     </div>
   </div>
 </section>
 <!-- blog details part end -->
 
-
+  
+  
 <footer id="footer" class="bg-one">
 	<div class="top-footer">
 	  <div class="container">
